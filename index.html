@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <nav class="barra-nav">
+        <a class="titulo" href="#">HOSTING</a>
+        <a class="contacto" href="#">Contactanos</a>
+    </nav>
+    <section class="container-text">
+        <div class="text">
+            <h1>Landing Page Hosting</h1>
+            <p>Informate sobre los tipos de hosting </p>
+            <div class="container-fondo">
+                <img src="img/fondo.jpg" alt="Imagen 1">
+            </div>
+        </div>
+    </section>
+    <section class="container-principal">
+        <div class="contenedor-compartido">
+            <div class="container-img">
+                <img src="img/compartido.PNG" alt="Imagen 1">
+            </div>
+            <div class="contenedor-texto">
+                <h2 class="titulo">Hosting Compartido</h2>
+                <p class="parrafo">Modelo de hosting que aloja y permite compartir los recursos
+                    a varios sitios web en solo servidor.
+                </p>
+                <ul>
+                    <li class="titu">Ventajas</li>
+                    <li>Es el más económico en el mercado;</li>
+                    <li>Es fácil de manejar e instalar.</li>
+                </ul>
+                <ul>
+                    <li class="titu">Desventajas</li>
+                    <li>Si hay un problema en alguno de los proyectos alojados, esto puede afectar al resto;</li>
+                    <li>Existe una menor flexibilidad</li>
+                    <li>Al compartir los recursos, la velocidad y disponibilidad de tu sitio web pueden verse perjudicados.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenedor-privados">
+            <div class="contenedor-texto">
+                <h2 class="titulo">Hosting Privado</h2>
+                <p class="parrafo">Esta caracterizado por ser un servidor que puede trabajar con 
+                    su propio sistema operativo y no comparte recursos con otros sitios web.
+                </p>
+                <ul>
+                    <li class="titu">Ventajas</li>
+                    <li>Posee una mayor flexibilidad y acceso que el hosting compartido.</li>
+                    <li>Si alguno de los proyectos tiene un problema, no afectará al resto.</li>
+                    <li>Es una alternativa más económica que el hosting dedicado.</li>
+                </ul>
+                <ul>
+                    <li class="titu">Desventajas</li>
+                    <li>Solo dispone de una parte de los recursos totales de un servidor.</li>
+                    <li>Es más costoso que el hosting compartido.</li>
+                    <li>Normalmente son más difíciles de configurar y usar que el hosting compartido.</li>
+                </ul>
+            </div>
+            <div class="container-img">
+                <img src="img/privado.PNG" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="contenedor-dedicados">
+            <div class="container-img">
+                <img src="img/dedicado.PNG" alt="Imagen 1">
+            </div>
+            <div class="contenedor-texto">
+                <h2 class="titulo">Hosting Dedicado</h2>
+                <p class="parrafo">Modelo de uso exclusivo por un solo cliente, por lo que permite adaptar
+                    sus capacidades y necesidades de cada usuario.
+                </p>
+                <ul>
+                    <li class="titu">Ventajas</li>
+                    <li>El rendimiento no se ve afectado por el tráfico.</li>
+                    <li>Permite que el sitio web pueda funcionar de manera óptima.</li>
+                    <li>Garantiza mayor flexibilidad, velocidad y acceso.</li>
+                    <li>Tiene mayores recursos.</li>
+                    <li>Posee una mayor seguridad.</li>
+                </ul>
+                <ul>
+                    <li class="titu">Desventajas</li>
+                    <li>Puede resultar bastante caro.</li>
+                    <li>Es complicado de configurar y mantener.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="contenedor-cloud">
+            <div class="contenedor-texto">
+                <h2 class="titulo">Cloud Hosting</h2>
+                <p class="parrafo">Distribuye los proyectos en varios servidores interconectados en una nube
+                    por lo que no estara alojador en un solo servidor.
+                </p>
+                <ul>
+                    <li class="titu">Ventajas</li>
+                    <li>Es más eficiente que el hosting dedicado.</li>
+                    <li>Este servicio se adapta a las necesidades del proyecto en tiempo real.</li>
+                    <li>Posee la mejor disponibilidad.</li>
+                    <li>Tiene gran capacidad de adaptación.</li>
+                    <li>Al contar con el respaldo de varios servidores, ofrece una mayor seguridad.</li>
+                </ul>
+                <ul>
+                    <li class="titu">Desventajas</li>
+                    <li>Para su gestión se requiere conocimientos avanzados.</li>
+                    <li>Su precio de entrada es elevado.</li>
+                    <li>Debido a que posee recursos variables, los precios finales también lo son.</li>
+                    <li>Transferir datos personales entre países puede tener implicaciones legales.</li>
+                </ul>
+            </div>
+            <div class="container-img">
+                <img src="img/nube.PNG" alt="Imagen 1">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contenedor">
+            <div class="footer-textos">
+                <h2 class="titulo-footer">Contactanos</h2>
+            </div>
+            <form action="formulario.php" class="formulario" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" class="nombre-contacto">
+                <input type="email" name="correo" placeholder="Correo" class="correo-contacto">
+                <textarea type="text" name="mensaje" class="mensaje" placeholder="Mensaje"></textarea>
+                <div class="derecha">
+                    <input type="submit" value="Contactar" class="boton-envio">
+                </div>
+                <div class="redes">
+                    <img src="img/messenger.png">
+                    <img src="img/whatsapp.png">
+                    <img src="img/gmail.png">
+                </div>
+                <div class="texto-redes">
+                    <a style="text-decoration:none" href="https://www.messenger.com/">Messenger</a>
+                    <a style="text-decoration:none" href="https://web.whatsapp.com/">Whatsapp</a>
+                    <a style="text-decoration:none" href="https://www.google.com/intl/es-419/gmail/about/">Gmail</a>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+    <script src="../CSS/index.js"></script>
+</html>

@@ -1,0 +1,351 @@
+
+body{
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.barra-nav{
+    background-color: #045f8a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 1%;
+}
+
+.barra-nav .titulo{
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.barra-nav .contacto{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.container-text{
+
+}
+
+.container-text .text{
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+  width: 100%;
+  
+}
+
+.container-text .text h1{
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  font-size: 6vw;
+  -webkit-text-stroke: 2px black;
+
+}
+.container-text .text p{
+  position: absolute;
+  top: 53%;
+  left: 45%;
+  font-size: 2vw;
+
+}
+
+.container-text .text .container-fondo{
+  margin: 0 center;
+  width: 100%;
+  display: flex;
+}
+
+.container-text .text .container-fondo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container-principal{
+  margin: 10% 10%;
+}
+
+.container-principal .contenedor-compartido{
+  display: flex;
+  flex-wrap: wrap;
+  width: 130%;
+  height: 100%;
+}
+
+.container-principal .contenedor-compartido .container-img{
+  width: 40%;
+  height: 450px;
+  
+}
+
+.container-principal .contenedor-compartido .container-img img{
+  width: 750px;
+}
+
+.container-principal .contenedor-compartido .contenedor-texto{
+  width: 37%;
+  height: 450px;
+  padding: 0% 4%;
+  background-color: rgba(255, 255, 255, 0.815);
+  flex-wrap: wrap;
+}
+
+.container-principal .contenedor-compartido .contenedor-texto h2{
+  font-size: 30px;
+
+}
+
+.container-principal .contenedor-compartido .contenedor-texto p{
+  font-size: 19px;
+
+}
+
+.container-principal .contenedor-compartido .contenedor-texto ul .titu{
+  font-size: 20px;
+  list-style:none
+
+}
+
+.container-principal .contenedor-privados{
+  display: flex;
+  flex-wrap: wrap;
+  width: 130%;
+  height: 100%;
+}
+
+.container-principal .contenedor-privados .container-img{
+  width: 40%;
+  height: 450px;
+  
+}
+
+.container-principal .contenedor-privados .container-img img{
+  width: 840px;
+  height: 450px;
+}
+
+.container-principal .contenedor-privados .contenedor-texto{
+  width: 37%;
+  height: 450px;
+  padding: 0% 1%;
+  background-color: rgba(255, 255, 255, 0.815);
+  flex-wrap: wrap;
+}
+
+.container-principal .contenedor-privados .contenedor-texto h2{
+  font-size: 30px;
+
+}
+
+.container-principal .contenedor-privados .contenedor-texto p{
+  font-size: 19px;
+
+}
+
+.container-principal .contenedor-privados .contenedor-texto ul .titu{
+  font-size: 20px;
+  list-style:none
+
+}
+
+.container-principal .contenedor-dedicados{
+  display: flex;
+  flex-wrap: wrap;
+  width: 130%;
+  height: 100%;
+}
+
+.container-principal .contenedor-dedicados .container-img{
+  width: 40%;
+  height: 450px;
+  
+}
+
+.container-principal .contenedor-dedicados .container-img img{
+  width: 750px;
+}
+
+.container-principal .contenedor-dedicados .contenedor-texto{
+  width: 40%;
+  height: 450px;
+  padding: 0% 4%;
+  background-color: rgba(255, 255, 255, 0.815);
+  flex-wrap: wrap;
+}
+
+.container-principal .contenedor-dedicados .contenedor-texto h2{
+  font-size: 30px;
+
+}
+
+.container-principal .contenedor-dedicados .contenedor-texto p{
+  font-size: 19px;
+
+}
+
+.container-principal .contenedor-dedicados .contenedor-texto ul .titu{
+  font-size: 20px;
+  list-style:none
+
+}
+
+.container-principal .contenedor-cloud{
+  display: flex;
+  flex-wrap: wrap;
+  width: 130%;
+  height: 100%;
+}
+
+.container-principal .contenedor-cloud .container-img{
+  width: 40%;
+  height: 450px;
+  
+}
+
+.container-principal .contenedor-cloud .container-img img{
+  width: 840px;
+  height: 450px;
+}
+
+.container-principal .contenedor-cloud .contenedor-texto{
+  width: 37%;
+  height: 450px;
+  padding: 0% 1%;
+  background-color: rgba(255, 255, 255, 0.815);
+  flex-wrap: wrap;
+}
+
+.container-principal .contenedor-cloud .contenedor-texto h2{
+  font-size: 30px;
+
+}
+
+.container-principal .contenedor-cloud .contenedor-texto p{
+  font-size: 19px;
+
+}
+
+.container-principal .contenedor-cloud .contenedor-texto ul .titu{
+  font-size: 20px;
+  list-style:none
+
+}
+
+footer {
+  background-color: #1d3357;
+  margin-top: 10%;
+  padding-top: 2%;
+  height: 900px;
+}
+
+
+footer .footer-textos {
+  font-family: "Segoe UI";
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+footer .footer-textos .titulo-footer {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+footer .formulario {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+footer .formulario .nombre-contacto,
+footer .formulario .correo-contacto,
+footer .formulario .mensaje {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background: none;
+  border: 4px solid black;
+  color: #000000;
+  border-radius: 3px;
+  font-family: "Franklin Gothic Medium";
+  font-size: 14px;
+  background: #fff;
+}
+
+footer .formulario .mensaje {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+}
+footer .formulario .derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .formulario .boton-envio {
+  display: inline-block;
+  padding: 10px 15px;
+  background: none;
+  border: 1px solid #05083b;
+  background: #0d0a35;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+footer .formulario .boton-envio:hover {
+  background: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  margin-bottom: 0%;
+}
+footer .formulario .redes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-left: 16%;
+  width: 62%;
+}
+footer .formulario .redes img {
+  height: 100px;
+  width: 45px;
+  margin-top: 0px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
+
+footer .formulario .texto-redes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 14%;
+  width: 64%;
+  font-family: "Franklin Gothic Medium";
+}
+
+footer .formulario .texto-redes a {
+  margin: 20px 0;
+  margin-top: 0px;
+  margin-left: 10%;
+  color: #fff;
+}
+
+footer .formulario .redes img {
+  height: 40px;
+  cursor: pointer;
+}
+footer .formulario .Copyright {
+  font-family: "consolas";
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 7%;
+}
